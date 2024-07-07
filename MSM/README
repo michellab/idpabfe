@@ -1,0 +1,17 @@
+MD runs for the c-Myc project. 
+
+The 3 runs used for the MSM model were:
+1. AMBERIDP
+2. CHARMM36
+3. FF14SB
+
+The following files and directories/folders have been generated:
+AMBERIDP/
+Contains the topology, force-field parameters, and configuration files needed to perform 20 μs MD simulations using the ff14IDPSFF/GAFF2 force field and GROMACS 5.0.5 software, which produce the output trajectories used for MSM model construction.
+
+CHARMM36/
+Contains the topology, force-field parameters, and configuration files needed to perform 20 μs MD simulations using the Charmm36m/Charmm force field and GROMACS 5.0.5 software, which produce the output trajectories used for MSM model construction.
+
+FF14SB/
+Contains the topology, force-field parameters, and configuration files needed to perform 20 μs MD simulations using the ff14SB/GAFF2 force field and SOMD 2019.1.0 software, which produce the output trajectories used for MSM model construction.
+
