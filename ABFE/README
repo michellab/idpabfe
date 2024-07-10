@@ -1,0 +1,12 @@
+Input files for the double decoupling absoluteFEP protocol used to reproduce the binding affinity and binding site preference of the known c-Myc binder 10058-F4 to the 402-412 Myc fragment. 
+The files are organized into three folders, each corresponding to a different starting pose for the simulations:
+1. Hammoudeh_pose
+2. Heller_parameters
+3. Clustering_pose
+
+For each system, the following files and directories/folders have been generated:
+bound/
+Contains the topology and the coordinate files, the .pert file describing the perturbation of the target molecule, the distres file detailing the restraints used (analytically described in the restraint.dat file), the configuration and the bash files for executing the discharge and vanish steps of the double decoupling absoluteFEP protocol using the SOMD software (revision 2019.1.0).
+
+free/
+Contains the topology and the coordinate files, the .pert file describing the perturbation of the target molecule the configuration and the bash files for executing the discharge and vanish steps of the double decoupling absoluteFEP protocol using the SOMD software (revision 2019.1.0).
