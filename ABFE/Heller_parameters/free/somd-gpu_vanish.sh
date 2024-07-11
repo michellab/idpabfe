@@ -1,0 +1,1 @@
+../../../scripts/somd-gpu-vanish.sh
