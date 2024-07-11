@@ -6,6 +6,9 @@ The 3 runs used for the MSM model were:
 3. FF14SB
 
 The following files and directories/folders have been generated:
+amberidp_two_distances_short_dist_all_dist.ipynb
+Scripts to construct the MSM models for the three metrics
+
 AMBERIDP/
 Contains the topology, force-field parameters, and configuration files needed to perform 20 μs MD simulations using the ff14IDPSFF/GAFF2 force field and GROMACS 5.0.5 software, which produce the output trajectories used for MSM model construction.
 
